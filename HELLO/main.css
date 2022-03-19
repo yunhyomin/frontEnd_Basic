@@ -1,0 +1,50 @@
+div 
+{
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+}
+/* 인라인요소 <span> 가로너비가 최대한 줄어들려고 한다.
+   블록요소 <div> 가로너비가 최대한 늘어나려고 한다.*/
+
+/*  (띄어쓰기) 하위요소
+  + 뒤의 하나
+  ~ 뒤의 모두 
+  --가상클래스 
+  :hover 커서를 대면 동작 
+  :active 클릭하면 동작
+  :focus 입력하는요소를 선택하면 동작
+  :first-child 형제요소 중 첫째 
+  :last-child 형제요소 중 막내 
+  :nth-child(n) 가로안에있는 n번째
+  :not(선택자) 선택자가 아닌 요소 선택 
+  ::before 요소의 내부 앞에 내용(contect)을 삽입
+  ::after 요소의 내부 뒤에 내용(content)을 삽입
+  [type] 
+
+CSS 속성 
+너비 width(가로), height(세로) - max, min
+외부여백 margin: top,right,bottom,left) - 상하 좌우, 상 좌우 하, 상우하좌
+내부여백 padding: top,right,bottom,left) - 상하 좌우, 상 좌우 하, 상우하좌
+테두리 border: width style color 
+모서리 border-radius 
+크기 box-sizing: border-box, content-box
+넘침 overflow: auto, scroll(무조건x.y생성), visible(보여줌), hidden(잘라냄) overflow-x, overflow-y
+출력 display: block(상자요소), inline(글자요소), inline-block
+    flex(1차원레이아웃-수평정렬), grid(2차원), none(화면에서 사라짐)
+
+투명도 opacity: 1(기본값) 
+글꼴 font-size 
+문자 color: ,text-align:(정렬방식) ,text-decoration:(선) ,text-indent(첫줄들여쓰기)
+배경 backgrond-color: , -image: url(경로), -position:(배경이미지위치), -repeat:(배경이미지반복),
+             -size:(배경이미지 크기), -attachment:(스크롤)scroll,fixed 
+배치 position: static(기준없음), relative(자신을 기준):위치상 부모요소가 될수있다, absolute(위치 상 부모요소기준), fixed(뷰포트(브라우저)를 기준)
+    z-index:(요소의 쌓임정도) 숫자가 클수록 위에쌓임
+플렉스(정렬) 
+flex-derection(주축을 설정)
+전환 transition: 속성 시간 
+변환 transform: translate(x,y)-이동, scale(x,y)-크기, rotate(degree)-회전, skewX(x)skewY(y)-기울임
+
+단위 px, %(상대적 백분율), em, rem, vw,vh
+
+   */
